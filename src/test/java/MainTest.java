@@ -28,8 +28,8 @@ public class MainTest {
 
     @BeforeEach
     void setUp() {
-        lamp = new Lamp(LampType.NORMAL, true, 80);
-        bed = new Bed("Çift Kişilik", 4, 1, 2, 2);
+        lamp = new Lamp(true, 80, LampType.NORMAL);
+        bed = new Bed(2, 4, 1, 2, "normal");
         wardrobe = new Wardrobe(2, 4, 40);
         carpet = new Carpet(3,5, PaintColor.RED);
         ceiling = new Ceiling(3, PaintColor.RED);
